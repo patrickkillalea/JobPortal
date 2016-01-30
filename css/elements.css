@@ -1,0 +1,230 @@
+/* x-panel */
+.x-panel {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+	background: #fff;
+	border-radius: 3px;
+	margin-bottom: 30px;
+}
+.x-panel-top {
+	background: #eb9400;
+	color: #fff;
+	font-size: 24px;
+	border-radius: 3px 3px 0 0;
+	padding: 10px 20px;
+	position: relative;
+	overflow: hidden;
+}
+.x-panel .panel-body {
+	padding-bottom: 0;
+}
+.x-panel-top .fa {
+	position: absolute;
+	top: 5px;
+	right: 15px;
+	cursor: default;
+}
+.x-panel-top .open-close .fa {
+    position: absolute;
+    right: 15px;
+}
+.x-panel-top .open-close .fa-angle-down {
+    top: 8px;
+}
+.x-panel-top .open-close .fa-angle-up {
+    top: 20px;
+}
+.x-panel.inactive .x-panel-top {
+	margin-bottom: 0;
+}
+
+.x-panel.inactive .x-panel-top .open-close .fa-angle-up {
+    top: 8px;
+}
+.x-panel.inactive .x-panel-top .open-close .fa-angle-down {
+    top: 20px;
+}
+.bottom-collapse {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 0 0 3px 3px;
+    color: #ccc;
+    cursor: default;
+    font-size: 32px;
+    height: 32px;
+    line-height: 1;
+    text-align: center;
+}
+.bottom-collapse .fa-angle-down, .x-panel.inactive .bottom-collapse .fa-angle-up {
+    display: none;
+}
+.x-panel.inactive .bottom-collapse .fa-angle-down {
+    display: block;
+}
+
+
+/* X-table */
+.x-table-header {
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 24px;
+    overflow: hidden;
+    padding: 10px 20px;
+    position: relative;
+}
+.x-table {
+    border-radius: 5px;
+    box-shadow: 0 0 5px #999;
+}
+.x-table-header-yellow {
+    background: none repeat scroll 0 0 #eb9400;
+}
+.x-table-header-blue, .mobile-table-header-blue {
+    background: none repeat scroll 0 0 #05abb1;
+}
+.x-table-header-blue.light-blue, .mobile-table-header-blue.light-blue {
+    background: none repeat scroll 0 0 #00bac0;
+}
+.x-table-header-blue.dark-blue, .mobile-table-header-blue.dark-blue {
+    background: none repeat scroll 0 0 #059da3;
+}
+.x-table-header-grey {
+    background: none repeat scroll 0 0 #9ca2a6;
+}
+.x-table-header span {
+    font-size: 14px;
+}
+.x-table-content {
+    border-radius: 0 0 5px 5px;
+    width: 100%;
+}
+.x-table-content th {
+    background: none repeat scroll 0 0 #c9ced2;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.x-table-content td {
+    background: none repeat scroll 0 0 #f6fafe;
+    border-bottom: 1px solid #eceef0;
+    color: #727a80;
+    padding: 10px 20px;
+    vertical-align: top;
+}
+.x-table-content td .fa {
+    cursor: pointer;
+    font-size: 22px;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+.x-table-cell-edit {
+    display: inline-block;
+    padding: 3px 10px;
+}
+.x-table-cell-edit:hover {
+    background: none repeat scroll 0 0 #00a7d4;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.x-table-cell-documents .fa:hover {
+    color: #00a7d4;
+}
+.x-table-statement-cell {
+    width: 230px;
+}
+.x-table .x-table-header .fa {
+    cursor: pointer;
+}
+.x-table.inactive .x-table-header .fa-expand, .x-table.inactive .x-table-header .fa-compress, .x-table .x-table-header .fa-expand {
+    display: none;
+}
+.x-table.inactive .x-table-container {
+	/*height: 0;
+	overflow: hidden;*/
+}
+.x-table.inactive .x-table-header .fa-expand {
+    display: inline-block;
+}
+.x-table.inactive .x-table-header {
+}
+.top-area-simple-search .show-adv-search, .top-area-simple-search.hide-block .hide-adv-search {
+    display: none;
+}
+.top-area-simple-search.hide-block .show-adv-search {
+    display: inline-block;
+}
+.top-area-advanced-search.hidden-block {
+    display: none;
+}
+.x-table-header p {
+    margin: 0;
+    padding: 0;
+}
+.x-table-header .open-close {
+    position: relative;
+}
+.x-table-header .open-close .fa {
+    position: absolute;
+    right: 0;
+}
+.x-table-header .open-close .fa-angle-down {
+    top: 0;
+}
+.x-table-header .open-close .fa-angle-up {
+    top: 12px;
+}
+.x-table.inactive .x-table-header .open-close .fa-angle-up {
+    top: 0;
+}
+.x-table.inactive .x-table-header .open-close .fa-angle-down {
+    top: 12px;
+}
+.bottom-collapse .fa-angle-down, .x-table.inactive .bottom-collapse .fa-angle-up {
+    display: none;
+}
+.x-table.inactive .bottom-collapse .fa-angle-down {
+    display: block;
+}
+
+
+/* Breadcrumb */
+.breadcrumb-container {
+	background: #0099c3;
+	margin-top: -30px;
+	margin-bottom: 30px;
+	position: relative;
+}
+.breadcrumb-bg {
+	background: #00A7D4;
+	position: absolute;
+	width: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
+.breadcrumbs {
+	height: 80px;
+	padding: 0;
+	color: #527792;
+	font-size: 24px;
+}
+.breadcrumbs a {
+	text-decoration: none;
+}
+.breadcrumbs .step {
+	height: 80px;
+	padding-top: 12px;
+	display: block;
+	text-align: center;
+}
+.breadcrumbs .step span {
+	display: block;
+	font-size: 15px;
+}
+.breadcrumbs .complited {
+	background: #00a7d4;
+	color: #fff;
+}
+.breadcrumbs .active {
+	background: url(../img/step-arrow.png) no-repeat center right #00a7d4;
+	color: #fff;
+}
