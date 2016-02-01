@@ -1,343 +1,296 @@
 <!doctype html>
 <html>
 <head>
-	<title>UNUM Example</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-	<link href="css/buttons.css" rel="stylesheet">
-	<link href="css/datepicker.css" rel="stylesheet">
-	<link href="css/main.css" rel="stylesheet">
-	<link href="css/elements.css" rel="stylesheet">
-	<link href="css/mobile.css" rel="stylesheet">
-	<link href="css/responsive.css" rel="stylesheet">
-	<!--[if lt IE 9]><link href="css/ie.css" rel="stylesheet"><![endif]-->
-	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
-	<link href="img/favicon.png" rel="apple-touch-icon">
-	<link href="img/favicon.png" rel="apple-touch-icon-precomposed">
-	<link href="img/favicon.png" rel="apple-touch-icon" sizes="144x144">
-	<link href="img/favicon.png" rel="apple-touch-icon" sizes="114x114">
-
+    <title>UNUM Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/buttons.css" rel="stylesheet">
+    <link href="css/datepicker.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/elements.css" rel="stylesheet">
+    <link href="css/mobile.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]><link href="css/ie.css" rel="stylesheet"><![endif]-->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+    <link href="img/favicon.png" rel="apple-touch-icon">
+    <link href="img/favicon.png" rel="apple-touch-icon-precomposed">
+    <link href="img/favicon.png" rel="apple-touch-icon" sizes="144x144">
+    <link href="img/favicon.png" rel="apple-touch-icon" sizes="114x114">
 </head>
 <body>
-	<section class="header-container">
-		<div class="container">
-			<div class="row">
-				<!-- Header and navigation, for desktop and mobile -->
-				<header id="header" class="col-md-12 hidden-xs">
-					<div class="row">
-						<div class="user-nav pull-right"><a href="#">Patrick Killalea</a></div>
-						<!-- End of the Link -->
-						<div id="logo" class="pull-left"><a href="index.html"><img src="img/logo.png" alt="UNUM"></a></div>
-						<div id="page-title" class="pull-left">INSIDE</div>
-					</div>
-					<div class="pull-left">
-						<ul class="nav nav-tabs navigation">
-							<li class="active"><a href="#">Unum US</a></li>
-							<li><a href="#">Unum UK</a></li>
-							<li><a href="#">Colonial</a></li>
-						</ul>
-					</div>
-				</header>
-				<header id="header" class="m-header col-md-12 visible-xs">
-					<div id="m-logo">
-						<a href="#" class="m-menu-icon pull-left"><i class="fa fa-bars"></i></a>
-						<table align="center">
-							<tr>
-								<td><a href="index.html"><img src="img/logo.png" alt="UNUM" width="64"></a></td>
-								<td><span id="page-title">SHORT TITLE</span></td>
-							</tr>
-						</table>
-					</div>
-				</header>
-			</div>
-		</div>
-	</section>
+    <section class="header-container">
+        <div class="container">
+            <div class="row">
+                <!-- Header and navigation, for desktop and mobile -->
+                <header id="header" class="col-md-12 hidden-xs">
+                    <div class="row">
+                        <div class="user-nav pull-right"><a href="#">Patrick Killalea</a></div>
+                        <!-- End of the Link -->
+                        <div id="logo" class="pull-left"><a href="index.html">
+                            <img src="img/logo.png" alt="UNUM"></a></div>
+                        <div id="page-title" class="pull-left">INSIDE</div>
+                    </div>
+                    <div class="pull-left">
+                        <ul class="nav nav-tabs navigation">
+                            <li class="active"><a href="#">Unum US</a></li>
+                            <li><a href="#">Unum UK</a></li>
+                            <li><a href="#">Colonial</a></li>
+                        </ul>
+                    </div>
+                </header>
+                <header id="header" class="m-header col-md-12 visible-xs">
+                    <div id="m-logo">
+                        <a href="#" class="m-menu-icon pull-left"><i class="fa fa-bars"></i></a>
+                        <table align="center">
+                            <tr>
+                                <td><a href="index.html">
+                                    <img src="img/logo.png" alt="UNUM" width="64"></a></td>
+                                <td><span id="page-title">SHORT TITLE</span></td>
+                            </tr>
+                        </table>
+                    </div>
+                </header>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="nav-side-menu">
+                    <div class="brand">UNUM US</div>
+                    <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+
+                    <div class="menu-list">
+
+                        <ul id="menu-content" class="menu-content collapse out">
+
+                            <li data-toggle="collapse" data-target="#service" class="collapsed">
+                                <a href="#"><i class="fa fa-link fa-lg"></i>Essential Links <span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu in" id="service">
+                                <li>Corporate Departments</li>
+                                <li>Security, Safety & Emergency Info</li>
+                                <li>Privacy & Info Security</li>
+                                <li>Ethics Hotline</li>
+                            </ul>
+
+                            <li data-toggle="collapse" data-target="#products" class="collapsed">
+                                <a href="#"><i class="fa fa-pencil-square-o fa-lg"></i>Publications & Events <span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu in" id="products">
+                                <li>Community Sites</li>
+                                <li>Connections Archive</li>
+                                <li>Inside View</li>
+                                <li>One Magazine</li>
+                            </ul>
+
+                            <li data-toggle="collapse" data-target="#applications" class="collapsed">
+                                <a href="#"><i class="fa fa-desktop fa-lg"></i>Applications <span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu in" id="applications">
+                                <li>Workday</li>
+                                <li>Service Now</li>
+                                <li>Service Portfolio</li>
+                                <li>Spotlight</li>
+                            </ul>
+
+                            <li data-toggle="collapse" data-target="#new" class="collapsed">
+                                <a href="#"><i class="fa fa-globe fa-lg"></i>Unum Websites <span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu in" id="new">
+                                <li>Unum Group</li>
+                                <li>Unum US</li>
+                                <li>Sunum UK</li>
+                                <li>Unum Ireland</li>
+                                <li>Colonial Life</li>
+                            </ul>
 
 
-
-
-
-
-
-
-
-
-	<div class="container">
-		<div class="row">
-			<div class="col-md-2">
-
-
-
-
-
-				<div class="nav-side-menu">
-					<div class="brand">UNUM US</div>
-					<i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
-
-					<div class="menu-list">
-
-						<ul id="menu-content" class="menu-content collapse out">
-
-							<li data-toggle="collapse" data-target="#service" class="collapsed">
-								<a href="#"><i class="fa fa-link fa-lg"></i> Essential Links <span class="arrow"></span></a>
-							</li>  
-							<ul class="sub-menu collapse" id="service">
-								<li>Corporate Departments</li>
-								<li>Security, Safety & Emergency Info</li>
-								<li>Privacy & Info Security</li>
-								<li>Ethics Hotline</li>
-							</ul>
-
-							<li  data-toggle="collapse" data-target="#products" class="collapsed">
-								<a href="#"><i class="fa fa-pencil-square-o fa-lg"></i> Publications & Events <span class="arrow"></span></a>
-							</li>
-							<ul class="sub-menu collapse" id="products">
-								<li>Community Sites</li>
-								<li>Connections Archive</li>
-								<li>Inside View</li>
-								<li>One Magazine</li>
-							</ul>
-
-							<li  data-toggle="collapse" data-target="#applications" class="collapsed">
-								<a href="#"><i class="fa fa-desktop fa-lg"></i> Applications <span class="arrow"></span></a>
-							</li>
-							<ul class="sub-menu collapse" id="applications">
-								<li>Workday</li>
-								<li>Service Now</li>
-								<li>Service Portfolio</li>
-								<li>Spotlight</li>
-							</ul>
-
-
-
-
-
-							<li data-toggle="collapse" data-target="#new" class="collapsed">
-								<a href="#"><i class="fa fa-globe fa-lg"></i> Unum Websites <span class="arrow"></span></a>
-							</li>
-							<ul class="sub-menu collapse" id="new">
-								<li>Unum Group</li>
-								<li>Unum US</li>
-								<li>Sunum UK</li>
-								<li>Unum Ireland</li>
-								<li>Colonial Life</li>
-							</ul>
-
-
-							<li>
-								<a href="#">
-									<i class="fa fa-users fa-lg"></i> HR Info
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-users fa-lg"></i>HR Info
 								</a>
-							</li>
+                            </li>
 
-							<li>
-								<a href="#">
-									<i class="fa fa-wrench fa-lg"></i> Work Tools
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-wrench fa-lg"></i>Work Tools
 								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container-content col-md-8">
+                <div align="middle">
+                    <img src="img/oz.png">
+                </div>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+                </br>
+		
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+                </br>
+		
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+                </br>
+
+		
+            </div>
+            <div class="col-md-2 right-nav">
 
 
-
-
-
-
-			</div>
-			<div class="col-md-8">
-				<div align="middle">
-					<img src="http://blacktrianglecampaign.org/wp-content/uploads/2012/09/Unum-Back-Up-Plan-Logo.jpg">
-				</div>
-				<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-			</br>
-			<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-			</br>
-			<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-			</br>
-
-			</div>
-			<div class="col-md-2">
-
-
-				<div class="nav-side-menu">
-<!-- 					<div class="brand">Brand Logo</div>
+                <div class="nav-side-menu">
+                    <!-- 					<div class="brand">Brand Logo</div>
 					<i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i> -->
 
-					<div class="menu-list">
+                    <div class="menu-list">
 
-						<ul id="menu-content" class="menu-content collapse out">
-							<li>
-								<a href="#">
-									<a href="#"><i class="fa fa-search fa-lg"></i> Search <span class="arrow"></span></a>
+                        <ul id="menu-content" class="menu-content collapse out">
+                            <li>
+                                <a href="#">
+                                    <a href="#"><i class="fa fa-search fa-lg"></i>Search <span class="arrow"></span></a>
+                                </a>
+                            </li>
+
+                            <li data-toggle="collapse" data-target="#search" class="collapsed active">
+                                <a href="#"><i class="fa fa-gift fa-lg"></i>UI Elements <span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu collapse" id="search">
+                                <li class="active"><a href="#">CSS3 Animation</a></li>
+                                <li><a href="#">General</a></li>
+                                <li><a href="#">Buttons</a></li>
+                                <li><a href="#">Tabs & Accordions</a></li>
+                                <li><a href="#">Typography</a></li>
+                                <li><a href="#">FontAwesome</a></li>
+                                <li><a href="#">Slider</a></li>
+                                <li><a href="#">Panels</a></li>
+                                <li><a href="#">Widgets</a></li>
+                                <li><a href="#">Bootstrap Model</a></li>
+                            </ul>
+
+
+                            <li data-toggle="collapse" data-target="#service" class="collapsed">
+                                <a href="#"><i class="fa fa-globe fa-lg"></i>Services <span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu collapse" id="service">
+                                <li>New Service 1</li>
+                                <li>New Service 2</li>
+                                <li>New Service 3</li>
+                            </ul>
+
+
+                            <li data-toggle="collapse" data-target="#new" class="collapsed">
+                                <a href="#"><i class="fa fa-car fa-lg"></i>New <span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu collapse" id="new">
+                                <li>New New 1</li>
+                                <li>New New 2</li>
+                                <li>New New 3</li>
+                            </ul>
+
+
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-user fa-lg"></i>Profile
 								</a>
-							</li>
+                            </li>
 
-							<li  data-toggle="collapse" data-target="#search" class="collapsed active">
-								<a href="#"><i class="fa fa-gift fa-lg"></i> UI Elements <span class="arrow"></span></a>
-							</li>
-							<ul class="sub-menu collapse" id="search">
-								<li class="active"><a href="#">CSS3 Animation</a></li>
-								<li><a href="#">General</a></li>
-								<li><a href="#">Buttons</a></li>
-								<li><a href="#">Tabs & Accordions</a></li>
-								<li><a href="#">Typography</a></li>
-								<li><a href="#">FontAwesome</a></li>
-								<li><a href="#">Slider</a></li>
-								<li><a href="#">Panels</a></li>
-								<li><a href="#">Widgets</a></li>
-								<li><a href="#">Bootstrap Model</a></li>
-							</ul>
-
-
-							<li data-toggle="collapse" data-target="#service" class="collapsed">
-								<a href="#"><i class="fa fa-globe fa-lg"></i> Services <span class="arrow"></span></a>
-							</li>  
-							<ul class="sub-menu collapse" id="service">
-								<li>New Service 1</li>
-								<li>New Service 2</li>
-								<li>New Service 3</li>
-							</ul>
-
-
-							<li data-toggle="collapse" data-target="#new" class="collapsed">
-								<a href="#"><i class="fa fa-car fa-lg"></i> New <span class="arrow"></span></a>
-							</li>
-							<ul class="sub-menu collapse" id="new">
-								<li>New New 1</li>
-								<li>New New 2</li>
-								<li>New New 3</li>
-							</ul>
-
-
-							<li>
-								<a href="#">
-									<i class="fa fa-user fa-lg"></i> Profile
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-users fa-lg"></i>Users
 								</a>
-							</li>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
-							<li>
-								<a href="#">
-									<i class="fa fa-users fa-lg"></i> Users
-								</a>
-							</li>
-						</ul> 
-					</div>
-				</div>
+            </div>
+        </div>
+    </div>
 
+    <!-- Footer -->
+    <footer class="footer-container">
+        <div class="container">
+            <div class="footer dax row">
+                <div class="col-sm-11 footer-mid">
+                    <div class="row">
+                        <nav class="col-sm-3 footer-block">
+                            <b>Documents &amp; downloads</b>
+                            <a href="#">IDI offline application form</a>
+                            <a href="#">Bank draft form</a>
+                        </nav>
+                        <div class="footer-separator visible-xs"></div>
+                        <nav class="col-sm-2 footer-block">
+                            <b>IDI help</b>
+                            <a href="#">FAQs</a>
+                            <a href="#">Live chat</a>
+                            <a href="#">Call back</a>
+                        </nav>
+                        <div class="footer-separator visible-xs"></div>
+                        <nav class="col-sm-3 footer-block">
+                            <b>Contact us</b>
+                            <a href="#">We're here to help</a>
+                            <a href="#">Find a Unum field office</a>
+                        </nav>
+                        <div class="footer-separator visible-xs"></div>
+                        <nav class="col-sm-3 footer-block">
+                            <b>About</b>
+                            <a href="#">Learn more about IDI</a>
+                            <a href="#">Finance calculators</a>
+                        </nav>
+                        <div class="footer-separator visible-xs"></div>
+                    </div>
+                </div>
+                <div class="col-sm-11 footer-bottom">
+                    <div class="copyright visible-xs">&copy; 2014 Unum Group. All rights reserved. Unum is a registered trademark and marketing brand of Unum Group and its insuring subsidiaries<br />
+                        NS-200 | Form: AE-1090</div>
+                    <nav>
+                        <ul class="hidden-xs">
+                            <li>NS-200</li>
+                            <li>Form: AE-1090</li>
+                            <li><a href="#">Trademark</a></li>
+                            <li><a href="#">Site map</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li class="ff-link"><a href="#">Legal</a></li>
+                        </ul>
+                        <ul class="visible-xs">
+                            <li><a href="#">Legal</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Site map</a></li>
+                            <li><a href="#">Trademark</a></li>
+                        </ul>
+                    </nav>
+                    <div class="pull-right copyright hidden-xs top-20">&copy; 2014 Unum Group. All rights reserved. Unum is a registered trademark and marketing brand of Unum Group and its insuring subsidiaries</div>
+                </div>
+            </div>
+            <!-- Hidden mobile navigation -->
+            <div id="mobileNavigation" class="mobile-menu visible-xs">
+                <nav>
+                    <ul>
+                        <li class="menu-close"><i class="fa fa-bars"></i></li>
+                        <li><a href="#">Learn</a></li>
+                        <li><a href="#">Apply</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                </nav>
+                <a class="m-menu-logout" href="#">Logout</a>
+            </div>
+        </div>
+    </footer>
 
-
-			</div>
-		</div>
-	</div>
-
-
-
-
-
-
-	<!-- Footer -->
-	<footer class="footer-container">
-		<div class="container">
-			<div class="footer dax row">
-				<div class="col-sm-11 footer-mid">
-					<div class="row">
-						<nav class="col-sm-3 footer-block">
-							<b>Documents &amp; downloads</b>
-							<a href="#">IDI offline application form</a>
-							<a href="#">Bank draft form</a>
-						</nav>
-						<div class="footer-separator visible-xs"></div>
-						<nav class="col-sm-2 footer-block">
-							<b>IDI help</b>
-							<a href="#">FAQs</a>
-							<a href="#">Live chat</a>
-							<a href="#">Call back</a>
-						</nav>
-						<div class="footer-separator visible-xs"></div>
-						<nav class="col-sm-3 footer-block">
-							<b>Contact us</b>
-							<a href="#">We're here to help</a>
-							<a href="#">Find a Unum field office</a>
-						</nav>
-						<div class="footer-separator visible-xs"></div>
-						<nav class="col-sm-3 footer-block">
-							<b>About</b>
-							<a href="#">Learn more about IDI</a>
-							<a href="#">Finance calculators</a>
-						</nav>
-						<div class="footer-separator visible-xs"></div>
-					</div>
-				</div>
-				<div class="col-sm-11 footer-bottom">
-					<div class="copyright visible-xs">&copy; 2014 Unum Group. All rights reserved. Unum is a registered trademark and marketing brand of Unum Group and its insuring subsidiaries<br />NS-200 | Form: AE-1090</div>
-					<nav>
-						<ul class="hidden-xs">
-							<li>NS-200</li>
-							<li>Form: AE-1090</li>
-							<li><a href="#">Trademark</a></li>
-							<li><a href="#">Site map</a></li>
-							<li><a href="#">Privacy</a></li>
-							<li class="ff-link"><a href="#">Legal</a></li>
-						</ul>
-						<ul class="visible-xs">
-							<li><a href="#">Legal</a></li>
-							<li><a href="#">Privacy</a></li>
-							<li><a href="#">Site map</a></li>
-							<li><a href="#">Trademark</a></li>
-						</ul>
-					</nav>
-					<div class="pull-right copyright hidden-xs top-20">&copy; 2014 Unum Group. All rights reserved. Unum is a registered trademark and marketing brand of Unum Group and its insuring subsidiaries</div>
-				</div>
-			</div>
-			<!-- Hidden mobile navigation -->
-			<div id="mobileNavigation" class="mobile-menu visible-xs">
-				<nav>
-					<ul>
-						<li class="menu-close"><i class="fa fa-bars"></i></li>
-						<li><a href="#">Learn</a></li>
-						<li><a href="#">Apply</a></li>
-						<li><a href="#">Help</a></li>
-					</ul>
-				</nav>
-				<a class="m-menu-logout" href="#">Logout</a>
-			</div>
-		</div>
-	</footer>
-
-	<!-- Chat block -->
-		<!-- <div class="chat-container">
-			<div class="chat-open">
-				<div class="chat-close"><i class="fa fa-angle-double-down fa-lg"></i></div>
-				<div class="chat-big-txt">Chat?</div>
-				<div class="chat-image"></div>
-				<div class="chat-description">We have noticed that you hae been here for a while would you like some help?</div>
-				<a href="#" class="chat-now-button small-blue-button">Chat now</a>
-			</div>
-			<div class="chat-collapsed">
-				<div class="chat-question">Need some help?</div>
-				<a href="#" class="chat-now-button small-blue-button">Chat now</a>
-			</div>
-		</div> -->
-
-
-		<!-- JS script declaration -->
-		<script src="js/lib/jquery-1.10.2.min.js"></script>
-	    <!--[if lt IE 9]>
-	    	<script src="js/lib/html5shiv.js"></script>
-	    	<script src="js/lib/respond.min.js"></script>
-	    	<![endif]-->
-	    	<script src="js/lib/jquery.placeholder.js"></script>
-	    	<script src="js/lib/bootstrap.min.js"></script>
-	    	<script src="js/lib/fastclick.js"></script>
-	    	<script src="js/lib/jquery.pubsub.js"></script>
-	    	<script src="js/lib/sxf3qhv.js"></script>
-	    	<script src="js/lib/bootstrap-datepicker.js"></script>
-	    	<script src="js/lib/jquery.formparams.min.js"></script>
-	    	<script src="js/lib/jquery.formatter.min.js"></script>
-	    	<script src="js/lib/jQuery.dPassword.js"></script>
-	    	<script src="js/lib/util.js"></script>
-	    	<script src="js/app.js"></script>
-	    </body>
-	    </html>
+    <script src="js/lib/jquery-1.10.2.min.js"></script>
+    <script src="js/lib/jquery.placeholder.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/lib/fastclick.js"></script>
+    <script src="js/lib/jquery.pubsub.js"></script>
+    <script src="js/lib/sxf3qhv.js"></script>
+    <script src="js/lib/bootstrap-datepicker.js"></script>
+    <script src="js/lib/jquery.formparams.min.js"></script>
+    <script src="js/lib/jquery.formatter.min.js"></script>
+    <script src="js/lib/jQuery.dPassword.js"></script>
+    <script src="js/lib/util.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
