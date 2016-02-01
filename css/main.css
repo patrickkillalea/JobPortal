@@ -1,6 +1,6 @@
 /* Main style for all pages */
 body {
-	background: #e6edf3;
+	background: white;
 	color: #3d3d3d;
 	font-family: "ff-dax-wide-web-pro-n4", "ff-dax-wide-web-pro", sans-serif;
 	font-size: 10px;
@@ -500,3 +500,9 @@ ul, ol {
  	margin-left: 20px;
  	margin-bottom: 10px;
  }
+.container-content {
+    background-color: #e6edf3;
+}
+.right-nav{
+    padding-left: 0px;
+}
