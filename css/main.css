@@ -615,3 +615,9 @@ h1, .h1, h2, .h2, h3, .h3 {
     border-radius: 0px 30px 30px 0px;
     cursor: pointer;
 }
+
+.article-style {
+    border-width: 2px;
+    border-bottom: 2px cyan groove;
+    width: 100%;
+}
