@@ -623,6 +623,11 @@ h1, .h1, h2, .h2, h3, .h3 {
 }
 
 .card-entire {
+    display: inline-block;
+    padding: 10px;
+}
+
+.card-box {
     height: 100px;
     width: 150px;
     background-color: white;
