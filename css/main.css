@@ -431,10 +431,8 @@ ul, ol {
     font-size: 12px;
     font-weight: 200;
     background-color: #5E88A1;
-    /*	position: fixed;*/
-    /*position: absolute;*/
     top: 0px;
-    width: 200px;
+    display: inline-block;
     height: auto;
     color: #e1ffff;
 }
@@ -601,8 +599,8 @@ h1, .h1, h2, .h2, h3, .h3 {
     background-color: #e6edf3;
 }
 
-.right-nav {
-    padding-left: 0px;
+.side-nav {
+    padding: 0px;
 }
 
 /*SEARCH FORM*/
@@ -617,6 +615,8 @@ h1, .h1, h2, .h2, h3, .h3 {
 }
 
 .article-style {
+    padding-bottom: 5px;
+    padding-top: 5px;
     border-width: 2px;
     border-bottom: 2px cyan groove;
     width: 100%;
@@ -647,4 +647,32 @@ h1, .h1, h2, .h2, h3, .h3 {
     border: 5px groove #000;
     border-color: lightblue;
     border-radius: 50%;
+}
+
+.headline-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.headline-box {
+    position: relative;
+    width: 100%; /* desired width */
+}
+
+    .headline-box:before {
+        content: "";
+        display: block;
+        padding-top: 100%; /* initial ratio of 1:1*/
+    }
+
+.headline-image {
+    width: 100%;
+    height: 100%;
+    border: 5px solid #000;
+    border-radius: 10px;
+    border-color: white;
+    box-shadow: 4px 4px 2px #888888;
 }
