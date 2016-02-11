@@ -430,7 +430,7 @@ ul, ol {
     font-family: verdana;
     font-size: 12px;
     font-weight: 200;
-    background-color: #5E88A1;
+    background-color: #0099C3;
     top: 0px;
     display: inline-block;
     height: auto;
@@ -500,7 +500,7 @@ ul, ol {
 
         .nav-side-menu ul .sub-menu li,
         .nav-side-menu li .sub-menu li {
-            background-color: #181c20;
+            background-color: #527792;
             border: none;
             line-height: 28px;
             border-bottom: 1px solid #23282e;
@@ -618,7 +618,7 @@ h1, .h1, h2, .h2, h3, .h3 {
     padding-bottom: 5px;
     padding-top: 5px;
     border-width: 2px;
-    border-bottom: 2px cyan groove;
+    border-bottom: 2px #527792 solid;
     width: 100%;
 }
 
@@ -655,6 +655,7 @@ h1, .h1, h2, .h2, h3, .h3 {
     left: 0;
     bottom: 0;
     right: 0;
+    padding: 5px;
 }
 
 .headline-box {
@@ -667,6 +668,7 @@ h1, .h1, h2, .h2, h3, .h3 {
         display: block;
         padding-top: 100%; /* initial ratio of 1:1*/
     }
+
 
 .headline-image {
     width: 100%;
